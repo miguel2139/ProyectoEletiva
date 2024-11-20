@@ -1,0 +1,60 @@
+<?php
+/* Smarty version 4.2.1, created on 2024-11-19 18:43:32
+  from 'module:pscustomeraccountlinkspsc' */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '4.2.1',
+  'unifunc' => 'content_673d22a46ab0c0_22139804',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '42f9461127ce7396a601c2484841253ea5ba658f' => 
+    array (
+      0 => 'module:pscustomeraccountlinkspsc',
+      1 => 1731808770,
+      2 => 'module',
+    ),
+  ),
+  'cache_lifetime' => 31536000,
+),true)) {
+function content_673d22a46ab0c0_22139804 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, array (
+  'renderLogo' => 
+  array (
+    'compiled_filepath' => 'C:\\xampp\\htdocs\\tut\\var\\cache\\prod\\smarty\\compile\\classiclayouts_layout_full_width_tpl\\29\\b3\\7a\\29b37a170cd5212cbd2c1e6f7ea7688b703c982d_2.file.helpers.tpl.php',
+    'uid' => '29b37a170cd5212cbd2c1e6f7ea7688b703c982d',
+    'call_name' => 'smarty_template_function_renderLogo_1997161691673a551841b6c9_23158413',
+  ),
+));
+?>
+<div id="block_myaccount_infos" class="col-md-3 links wrapper">
+  <p class="h3 myaccount-title hidden-sm-down">
+    <a class="text-uppercase" href="http://localhost/tut/mi-cuenta" rel="nofollow">
+      Su cuenta
+    </a>
+  </p>
+  <div class="title clearfix hidden-md-up" data-target="#footer_account_list" data-toggle="collapse">
+    <span class="h3">Su cuenta</span>
+    <span class="float-xs-right">
+      <span class="navbar-toggler collapse-icons">
+        <i class="material-icons add">&#xE313;</i>
+        <i class="material-icons remove">&#xE316;</i>
+      </span>
+    </span>
+  </div>
+  <ul class="account-list collapse" id="footer_account_list">
+            <li><a href="http://localhost/tut/seguimiento-pedido-invitado" title="Seguimiento del pedido" rel="nofollow">Seguimiento del pedido</a></li>
+        <li><a href="http://localhost/tut/mi-cuenta" title="Acceda a su cuenta de cliente" rel="nofollow">Iniciar sesión</a></li>
+        <li><a href="http://localhost/tut/registro" title="Crear una cuenta" rel="nofollow">Crear una cuenta</a></li>
+        <li>
+  <a href="//localhost/tut/module/ps_emailalerts/account" title="Mis alertas">
+    Mis alertas
+  </a>
+</li>
+
+       
+	</ul>
+</div>
+<?php }
+}
